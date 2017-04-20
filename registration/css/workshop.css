@@ -1,0 +1,226 @@
+body{
+	  width: 100%;
+	  background-color: black;
+	  background-image: url('../img/teambg.jpg');
+	  
+
+	background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-color: black;
+}
+.navbar-header>a>img{
+	width:100px;
+	height:50px;
+	padding: 0 0 0 0;
+}
+h1{
+	font-size: 300%;
+	display: inline-block;
+	border : 2px solid white;
+	border-radius: 5px;
+	margin: 70px 0 30px;
+	padding: 12px ;
+ font:normal 60pt Arial;
+ color:#fff;
+ text-shadow: 0 2px 0 #ccc,
+ 0 2px 0 #c9c9c9,
+ 0 3px 0 #bbb,
+ 0 4px 0 #b9b9b9,
+ 0 5px 0 #aaa,
+ 0 6px 1px rgba(0,0,0,.1),
+ 0 0 5px rgba(0,0,0,.1),
+ 0 1px 3px rgba(0,0,0,.3),
+ 0 3px 5px rgba(0,0,0,.2),
+ 0 5px 10px rgba(0,0,0,.25),
+ 0 10px 10px rgba(0,0,0,.2),
+ 0 20px 20px rgba(0,0,0,.15);
+}
+/*.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin: 70px 0 30px;*/
+}
+.dropdown-menu{
+        background-color: #123;
+}
+#particles-js{
+  width: 100%;
+  background-color: black;
+  background-image: url('');
+  background-size: cover;
+  z-index: -1;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.dropdown:hover .dropdown-menu {
+        display: block;
+}
+.active{
+	background-color: #080808;
+	color: #fff;
+}
+.btn{
+	text-align: center;
+	background-color: black;
+	margin: 0 auto;
+}
+
+.quote{
+	color: #559FDB;
+}
+hr{
+	width: 90%;	
+	border: 1px solid #F4735F;
+	background-color: grey;
+
+}
+
+/*  login window and forms styles   */
+.modal-content {
+    border-radius: 0px;
+    background-color: transparent;
+    background-color: rgba(52, 152, 219, 0.74);
+}
+.modal-header {
+    color: #f05f40;
+    background-color: rgba(152, 215, 150, 0.30);
+}
+
+.mian-popup-body {
+    padding:5px 20px 20px 20px;
+     font-family: 'Open Sans', sans-serif;
+}
+.form-main{
+	color: black;
+}
+
+.modal-header h4 {
+    font-weight: 700;
+}
+
+.modal-body {
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.48);
+}
+
+.modal-footer {
+    margin-top: 0px;
+    background-color: rgba(152, 215, 150, 0.30);
+}
+
+.mian-modal-body{
+    text-align: center;
+    
+}
+#forgot,#resend,#change{
+    display:none;
+}
+#reset{
+    cursor:pointer;
+}
+
+.fb{
+	margin-left:auto;
+	margin-right:auto;
+	height:30px;
+	width:30px;
+}
+#heading{
+	font-size: 150%;
+}
+/**h1{
+	margin: 70px 0 30px;
+	display: inline-block;
+	font-weight: bolder;
+	border : 2px solid white;
+	padding: 12px;
+	border-radius: 5px;
+	font-size: 500%;
+	font-style: italic;
+	text-shadow: 2px 2px #fff;
+	box-shadow: 2px 2px 2px #fff;
+}**/
+h3{
+	  color: orange;
+	text-align: center;
+}
+.quote{
+	font-size: 1.4em;
+}
+p{
+	color: white;
+	padding: 0 10px;
+}
+.expl a{
+	font-size: 1.4em;
+	border : 2px solid #5E6DF2;
+	padding: 5px;
+	border-radius: 4px;
+	box-shadow: 3px 4px 4px #5E6DF2;
+}
+.ctr{
+	margin: 20px 0 0 0;
+	text-align: center;
+}
+a:hover{
+	text-decoration: none;
+
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.txt{
+	min-height: 300px;
+	margin: 50px 10px;
+}
+#heading{
+	text-align: center;
+}
+#container{
+	margin: 0 30px;
+}
+#container a{
+	margin : 0 auto;
+	color: white;
+}
+#container img{
+	margin : 20px auto;
+}
+
+@media(max-width: 750px){
+	h1{
+		font-size: 300%;
+		text-shadow: 1px 1px #fff;
+	}
+	.expl{
+		width: 100%;
+	}
+	.imgclass{
+		width: 100%;
+	}
+	.ctr{
+		margin-bottom: 20px;
+	}
+	.mobn{
+		display: none;
+	}
+}
+#footer{
+	width:100%;
+	background-color: #222222;
+	color: white;
+	padding:1%;
+}
